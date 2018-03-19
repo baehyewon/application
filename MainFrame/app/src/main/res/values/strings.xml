@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">갤러리</string>
+    <string name="act_sharelot">주차공간 공유하기</string>
+    <string name="act_main">메인화면</string>
+    <string name="act_selectedlot">상세 보기</string>
+
+    <string name="action_home">홈</string>
+    <string name="action_sharelot">장소 공유하기</string>
+    <string name="action_selectedlot">상세보기</string>
+    <string name="action_delete">사진 삭제</string>
+
+    <string name="title">제목</string>
+    <string name="orientation">방향</string>
+    <string name="background">배경</string>
+    <string name="photo">사진</string>
+</resources>

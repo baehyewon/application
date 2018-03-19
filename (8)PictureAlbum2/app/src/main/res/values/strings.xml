@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">명화 앨범2</string>
+
+    <string name="title01">Starry Night</string>
+    <string name="artist01">고흐</string>
+    <string name="picture01">starry_night</string>>
+
+    <string name="title02">Still Life with Kettle</string>
+    <string name="artist02">폴 세잔</string>
+    <string name="picture02">still_life_with_kettle</string>>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">하이브리드 앱</string>
+
+    <string name="act_name1">웹사이트 목록 2014111614</string>
+    <string name="act_name2">웹사이트 배혜원</string>
+
+    <string name="website1">안드로이드 배혜원</string>
+    <string name="url1">http://www.android.com</string>
+
+    <string name="website2">네이버 배혜원</string>
+    <string name="url2">http://www.naver.com</string>
+</resources>

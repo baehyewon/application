@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffffff"
+    tools:context="com.baehw1107.share_park5.ReservationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="60dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="나의 예약 공간"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/my_reservation"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginRight="8dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_weight="1.00">
+        <!--
+                <ListView
+                    android:id="@+id/listview_main"
+                    android:layout_width="341dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:dividerHeight="5dp"
+                    android:background="#f5f5f5"
+                    android:choiceMode="singleChoice"
+                    android:longClickable="true"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp" /> -->
+
+    </LinearLayout>
+
+</LinearLayout>

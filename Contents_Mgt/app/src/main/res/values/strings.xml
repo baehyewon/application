@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">갤러리2</string>
+    <string name="act_reg_form">사진 등록</string>
+    <string name="act_detail">사진 정보</string>
+
+    <string name="action_settings1">사진 등록</string>
+    <string name="action_settings2">홈</string>
+
+    <string name="title">제목</string>
+    <string name="orientation">방향</string>
+    <string name="background">배경</string>
+    <string name="photo">사진</string>
+</resources>

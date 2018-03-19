@@ -1,0 +1,412 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:gravity="right|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:text="당신의 연인입니까?"
+                    android:textSize="17sp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    />
+                <CheckBox
+                    android:id="@+id/aaf_chk_honey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="이름"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:gravity="left|center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:gravity="left|center_vertical"
+                    android:hint="이름 입력"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="연락처"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:gravity="left|center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:inputType="number"
+                    android:gravity="left|center_vertical"
+                    android:hint="연락처 입력"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="생일"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <DatePicker
+                    android:id="@+id/aaf_date_birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#888888"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="알람(날짜)"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <DatePicker
+                    android:id="@+id/aaf_date_alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="알람(시간)"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <TimePicker
+                    android:id="@+id/aaf_time_alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:timePickerMode="spinner"
+                    >
+
+                </TimePicker>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="줬던 선물"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_gaven_gift"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="줬던 선물 입력"
+                    >
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="받은 선물"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_taken_gift"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="받은 선물 입력"
+                    >
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="스타일"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="스타일 입력"
+                    >
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="좋아\n하는것"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="좋아하는것 입력"
+                    >
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="싫어\n하는것"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_dislike"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="싫어하는것 입력"
+                    >
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="줄선물"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_will_give_gift"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="left|center_vertical"
+                    android:hint="줄선물 입력"
+                    >
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="메시지"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    />
+
+                <EditText
+                    android:id="@+id/aaf_edt_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="혜인아 생일 축하해!"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        >
+
+        <Button
+            android:id="@+id/aaf_btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="추가"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

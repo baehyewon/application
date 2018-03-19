@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_page"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="내 정보" />
+        <item
+            android:id="@+id/nav_parking_lot"
+            android:icon="@drawable/ic_local_parking_black_24dp"
+            android:title="나의 주차 공간" />
+        <item
+            android:id="@+id/nav_reserve"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="예약한 공간" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="로그아웃" />
+    </group>
+</menu>

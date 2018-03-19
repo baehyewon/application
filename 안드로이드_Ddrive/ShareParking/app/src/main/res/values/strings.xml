@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">서울여대 주차장</string>
+    <string name="action_settings">관리자 모드 전환</string>
+</resources>
